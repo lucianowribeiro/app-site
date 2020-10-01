@@ -1,0 +1,15 @@
+.app-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: calc(var(--menu-font)*3);
+}
+.app-logo > .app{
+    color: var(--base-color);
+    font-size: calc(var(--menu-font)*0.8);
+    text-transform: uppercase;
+}
+.app-logo >.logo{
+    width: var(--menu-font);
+    height: var(--menu-font);
+}   

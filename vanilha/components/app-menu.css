@@ -1,0 +1,51 @@
+.app-menu>.menu{
+    display: block;
+    background-image: url("../assets/apps.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: var(--menu-font);
+    height: var(--menu-font);
+    margin-right: 20px;
+    cursor: pointer;
+}
+.app-menu>.menu:active+.list{
+    display: block;
+}
+.app-menu>.list:hover{
+    display: block;
+}
+.app-menu>.list{
+    margin-top: calc(var(--menu-font)*2.5);
+    padding: 20px 20px;
+    background-color: var(--super-contrast-color);
+    display: none;
+}
+.app-menu>.list li{
+    margin-top: var(--base-font);
+}
+.app-menu>.list a{
+    text-decoration: none;
+    color: var(--base-color);
+}
+@media (min-width: 800px){
+    .app-menu>.menu{
+        display: none;
+        margin-right: 0;
+    }
+    .app-menu>.list{
+        display: flex;
+        margin-top: 0;
+        padding: 0;
+    }    
+    .app-menu>.list li{
+        margin-top: 0;
+        margin-left: var(--menu-font);
+    }
+    .app-menu>.list li:hover{
+        cursor: pointer;
+    }
+    .app-menu>.list:hover{
+        display: flex;
+    }
+        
+}

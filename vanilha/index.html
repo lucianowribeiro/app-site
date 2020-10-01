@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Luciano Weber Ribeiro">
+    <meta name="description" content="The amazing app">
+
+    <title>App</title>
+
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="generic/reset.css">
+    <link rel="stylesheet" href="tools/font-family.css">
+    <link rel="stylesheet" href="settings/color.css">
+    <link rel="stylesheet" href="settings/fonts.css">
+    <link rel="stylesheet" href="base/index.css">
+    <link rel="stylesheet" href="components/app-header.css">
+    <link rel="stylesheet" href="components/app-logo.css">
+    <link rel="stylesheet" href="components/app-menu.css">
+    <link rel="stylesheet" href="components/app-footer.css">
+
 </head>
 <body>
-    
+    <header class="app-header">
+        <div class="app-logo">
+            <img class="logo" src="assets/favicon.svg" alt="App Logo" srcset="">
+            <p class="app">App</p>
+        </div>
+        <nav class="app-menu">
+            <span class="menu"></span>
+            <ul class="list">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#price">Price</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#follow">Follow</a></li>
+            </ul>    
+        </nav>
+    </header>
+    <main>
+        <section id="features"     class="app-features"></section>
+        <section id="benefits"     class="app-benefits"></section>
+        <section id="screenshots"  class="app-screenshots"></section>
+        <section id="price"        class="app-price"></section>
+        <section id="testimonials" class="app-testimonials"></section>
+        <section id="follow"       class="app-follow"></section>
+    </main>
+    <footer class="app-footer">
+        <div class="app-logo">
+            <img class="logo" src="assets/favicon.svg" alt="App Logo" srcset="">
+            <p class="app">App</p>
+        </div>
+    </footer>
 </body>
 </html>

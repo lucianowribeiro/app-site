@@ -1,0 +1,12 @@
+.app-header{
+    background-color: var(--super-contrast-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(var(--menu-font)*2.5);
+}
+@media (min-width: 800px){
+    .app-header{
+        justify-content: space-around;
+    }
+}

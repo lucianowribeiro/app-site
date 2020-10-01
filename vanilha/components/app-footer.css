@@ -1,0 +1,7 @@
+.app-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--contrast-color);
+    height: calc(var(--menu-font)*3.5);
+}
