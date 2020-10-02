@@ -16,18 +16,19 @@
 }
 .app-menu>.list{
     margin-top: calc(var(--menu-font)*2.5);
-    padding: 20px 20px;
+    padding: 80px 30px 20px;
     background-color: var(--super-contrast-color);
     display: none;
 }
 .app-menu>.list li{
-    margin-top: var(--base-font);
+    margin-top: var(--menu-font);
 }
 .app-menu>.list a{
     text-decoration: none;
     color: var(--base-color);
+    text-transform: uppercase;
 }
-@media (min-width: 800px){
+@media (min-width: 820px){
     .app-menu>.menu{
         display: none;
         margin-right: 0;

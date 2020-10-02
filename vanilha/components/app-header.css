@@ -3,9 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: calc(var(--menu-font)*2.5);
+    height: calc(var(--menu-font)*3);
 }
-@media (min-width: 800px){
+.app-header>.app-logo{
+    margin-left: var(--menu-font);
+}
+@media (min-width: 820px){
     .app-header{
         justify-content: space-around;
     }

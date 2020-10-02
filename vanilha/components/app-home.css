@@ -1,0 +1,71 @@
+.app-home{
+    margin-bottom: calc(var(--menu-font)*4);
+}
+.app-home .title.-white{
+    padding-top: calc(var(--menu-font)*1.8);
+    font-weight: bold;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.app-home .description{
+    margin-top: var(--menu-font);
+    margin-left: 5%;
+    margin-right: 5%;
+    color: var(--base-font-color);
+    text-align: justify;
+}   
+.app-home .app-button{
+    margin: 30px 30% 50px;
+}
+.app-home>.product{
+    position: absolute;
+    left: -200px;
+    top: 100px;
+    width: 350px;
+    opacity: 20%;
+}
+@media (min-width: 450px){
+    .app-home>.product{
+        top: 90px;
+    }
+}
+@media (min-width: 600px){
+    .app-home>.product{
+        width: 300px;
+        left: -150px;
+    }
+}   
+@media (min-width: 800px){
+    .app-home{
+        background-color: var(--contrast-color);   
+    }
+    .app-home article{
+        width: 40%;
+        padding-left: 15%;
+    }
+    .app-home .title.-white{
+        padding-top: calc(var(--menu-font)*4);
+        text-align: left;
+        font-weight: bold;
+        margin: 0 auto;
+    }
+    .app-home .description{
+        text-align: left;
+        margin: calc(var(--menu-font)*1) auto 0;
+    }
+    .app-home .app-button{
+        margin: 30px 0 50px;
+    }
+    .app-home>.product{
+        position: absolute;
+        opacity: 100%;
+        top:  250px;
+        left: 70%;
+    }
+}
+@media (min-width: 1154px){
+    .app-home>.product{
+        top:  210px;
+    }
+}

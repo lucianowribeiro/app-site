@@ -1,4 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
-    min-width: 300px;
+    min-width: 280px;
+}
+article{
+    background-color: var(--contrast-color);
 }

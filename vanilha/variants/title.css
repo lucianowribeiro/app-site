@@ -1,0 +1,10 @@
+.title{
+    font-size: var(--title-font);
+}
+.-white{
+    color: var(--base-color);
+}
+.-black{
+    color: var(--title-font-color);
+}
+

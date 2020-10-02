@@ -1,15 +1,16 @@
 .app-logo{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: calc(var(--menu-font)*3);
 }
 .app-logo > .app{
     color: var(--base-color);
-    font-size: calc(var(--menu-font)*0.8);
+    font-size: calc(var(--menu-font)*0.6);
     text-transform: uppercase;
 }
 .app-logo >.logo{
-    width: var(--menu-font);
-    height: var(--menu-font);
+    width: calc(var(--menu-font)*0.8);
+    height: calc(var(--menu-font)*0.8);
+    margin-right: 6px;
 }   
