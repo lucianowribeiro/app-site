@@ -38,6 +38,7 @@
         margin-right: 0;
     }
     .app-menu>.list{
+        position: relative;
         display: flex;
         margin-top: 0;
         padding: 0;
