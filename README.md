@@ -14,4 +14,5 @@ But also to learning the create site
 
 ## Credits
 Implementation using layout by Vardo 
-Link: [url](https://www.uplabs.com/posts/carabobo-material-design-landing-page)
+
+Link: [carabobo-material-design-landing-page](https://www.uplabs.com/posts/carabobo-material-design-landing-page)
