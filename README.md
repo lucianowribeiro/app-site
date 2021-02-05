@@ -11,3 +11,7 @@ Same site but done with differents modes
 
 To show the importance of both options and dependent on situation one is better than another
 But also to learning the create site
+
+## Credits
+Implementation using layout by Vardo 
+Link: [url](https://www.uplabs.com/posts/carabobo-material-design-landing-page)
